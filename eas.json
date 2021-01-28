@@ -3,6 +3,19 @@
     "ios": {
       "release": {
         "workflow": "generic"
+      },
+      "development": {
+        "workflow": "generic",
+        "scheme": "developmentclient"
+      }
+    },
+    "android": {
+      "release": {
+        "workflow": "generic"
+      },
+      "development": {
+        "workflow": "generic",
+        "gradleCommand": ":app:bundleDebug"
       }
     }
   }

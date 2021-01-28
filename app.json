@@ -9,7 +9,10 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "org.name.dc210127"
+      "bundleIdentifier": "com.lukmccall.devclient"
+    },
+    "android": {
+      "package": "com.dc210127"
     }
   }
 }
