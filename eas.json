@@ -6,6 +6,7 @@
       },
       "development": {
         "workflow": "generic",
+        "distribution": "internal",
         "scheme": "developmentclient"
       }
     },
